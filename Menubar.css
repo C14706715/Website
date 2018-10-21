@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: '3dumbregular';
+    src: url('3Dumb-webfont.eot');
+    src: url('3Dumb-webfont.eot?#iefix') format('embedded-opentype'), url('3Dumb-webfont.woff2') format('woff2'), url('3Dumb-webfont.woff') format('woff'), url('3Dumb-webfont.ttf') format('truetype'), url('3Dumb-webfont.svg#3dumbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: '3dumbregular';
+}
+
+ul li {
+    float: right;
+    list-style: none;
+    margin-right: 1em;
+}
+
+li a {
+    color: #544738;
+    text-decoration: none;
+    float: left;
+    font-size: 25px;
+    padding: 12px;
+}
+
+li a:hover {
+    color: #7eb9be;
+}
+
+.LeftRotation a:hover {
+    -webkit-transform: rotate(-10deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+
+.RightRotation a:hover {
+    -webkit-transform: rotate(10deg) scale(1.2);
+    -moz-transform: rotate(10deg) scale(1.2);
+    -o-transform: rotate(10deg) scale(1.2);
+}

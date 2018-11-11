@@ -2,12 +2,15 @@
 
 @font-face {
     font-family: '3dumbregular';
-    src: url('3Dumb-webfont.eot');
-    src: url('3Dumb-webfont.eot?#iefix') format('embedded-opentype'), url('3Dumb-webfont.woff2') format('woff2'), url('3Dumb-webfont.woff') format('woff'), url('3Dumb-webfont.ttf') format('truetype'), url('3Dumb-webfont.svg#3dumbregular') format('svg');
+    src: url('3Dumb-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Cuttie";
+    src: URL('Cuttie.woff') format('woff');
 }
 
 body {
-    font-family: '3dumbregular';
     background-color: rgb(77, 217, 193);
     /* stretching the image instead of tiles */
     -webkit-background-size: cover;
@@ -52,14 +55,16 @@ body {
 #Navigation li a {
     display: block;
     text-decoration: none;
-    color: rgb(206, 29, 62);
-    font-size: 32px;
+    color: rgb(77, 217, 193);
+    font-size: 42px;
+    margin-left: -20px;
+    padding-right: 20px;
 }
 
 #Navigation2 li a {
     text-decoration: none;
-    color: rgb(206, 29, 62);
-    font-size: 32px;
+    color: rgb(77, 217, 193);
+    font-size: 42px;
 }
 
 #Logo {

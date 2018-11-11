@@ -8,53 +8,118 @@
 
 body {
     font-family: '3dumbregular';
-    background-image: url("Geo.jpg");
-    /* stretching the image instead of tiles*/
+    background-color: rgb(77, 217, 193);
+    /* stretching the image instead of tiles */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: 100%;
 }
 
-
-/*Navigation bar stretching 75%*/
-
-#nav {
-    list-style-type: none;
-    margin-top: 50px;
-    margin-left: 25%;
-    width: 75%;
-    height: 60px;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-    background: blue;
-    padding-bottom: 40px;
-}
-
-ul li {
-    float: right;
-    list-style: none;
-    margin-right: 3em;
-    margin-bottom: 2em;
-}
-
-li a {
-    color: black;
-    text-decoration: none;
+#ProfPhoto {
     float: left;
-    font-size: 45px;
-    font-weight: bold;
-    padding: 12px;
+    margin-left: 3em;
+    margin-top: 1em;
 }
 
-.left_rotation:hover {
+#ProfileImage {
+    height: 450px;
+    width: 250px;
+    border-radius: 60px;
+}
+
+#Navigation li {
+    list-style: none;
+    display: block;
+    float: left;
+    margin: 1em;
+}
+
+#Navigation2 li {
+    list-style: none;
+    display: block;
+    float: right;
+    margin: 1em;
+}
+
+#Navigation2 li {
+    list-style: none;
+    display: block;
+    float: right;
+    margin: 1em;
+}
+
+#Navigation li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(206, 29, 62);
+    font-size: 32px;
+}
+
+#Navigation2 li a {
+    text-decoration: none;
+    color: rgb(206, 29, 62);
+    font-size: 32px;
+}
+
+#Logo {
+    width: 50%;
+    height: 75%;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: -15%;
+}
+
+header {
+    height: 30%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #e5592e;
+    height: 5em;
+    position: relative;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.55);
+    border-radius: 0.25em;
+    margin: 3em;
+    z-index: -2;
+}
+
+header:before {
+    content: " ";
+    border-color: #d9542b #d9542b #d9542b transparent;
+    border-style: solid;
+    border-width: 35px;
+    height: 0px;
+    width: 0px;
+    position: relative;
+    float: left;
+    top: 5px;
+    z-index: -2;
+}
+
+header:after {
+    content: " ";
+    border-color: #d9542b transparent #d9542b #d9542b;
+    border-style: solid;
+    border-width: 35px;
+    height: 0px;
+    width: 0px;
+    position: relative;
+    float: right;
+    top: -124px;
+    z-index: -4;
+}
+
+.Left_rotation:hover {
     -webkit-transform: rotate(-10deg) scale(1.2);
     -moz-transform: rotate(-10deg) scale(1.2);
     -o-transform: rotate(-10deg) scale(1.2);
     color: #7eb9be;
 }
 
-.right_rotation:hover {
+.Right_rotation:hover {
     -webkit-transform: rotate(10deg) scale(1.2);
     -moz-transform: rotate(10deg) scale(1.2);
     -o-transform: rotate(10deg) scale(1.2);

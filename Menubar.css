@@ -117,14 +117,14 @@ header:after {
     z-index: -4;
 }
 
-.Left_rotation:hover {
+header nav ul li a:hover {
     -webkit-transform: rotate(-10deg) scale(1.2);
     -moz-transform: rotate(-10deg) scale(1.2);
     -o-transform: rotate(-10deg) scale(1.2);
-    color: #7eb9be;
+    color: #6e626e;
 }
 
-.Right_rotation:hover {
+nav.Right_Rotation:hover {
     -webkit-transform: rotate(10deg) scale(1.2);
     -moz-transform: rotate(10deg) scale(1.2);
     -o-transform: rotate(10deg) scale(1.2);
